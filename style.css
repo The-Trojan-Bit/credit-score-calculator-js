@@ -1,0 +1,18 @@
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    margin: 10px 0;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+button {
+    padding: 5px;
+    margin: 0;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <title>CSC</title>
+</head>
+<body>
+    <h3 class="main__header">
+        Credit Score Calculator By The Trojan Bit
+        <br>
+        C Programming version 
+        <a href="https://github.com/The-Trojan-Bit/Credit-Score-Calculator">
+            here
+        </a>
+    </h3>
+    <label for="name">Applicant Name</label><br>
+    <input type="text" id="applicantName" placeholder="Enter Name"><br><br>
+    <label for="age">Age</label><br>
+    <input type="text" id="applicantAge" placeholder="Enter Age"><br><br>
+    <label for="monthly income">Monthly Income</label><br>
+    <input type="text" id="applicantMonthlyIncome" placeholder="Enter Income"><br><br>
+    <label for="home loan emi monthly">Home Loan EMI (Monthly)</label><br>
+    <input type="text" id="applicantHloanEMI" placeholder="Enter EMI Amount"><br><br>
+    <label for="personal loan emi monthly">Personal Loan EMI (Monthly)</label><br>
+    <input type="text" id="applicantPloanEMI" placeholder="Enter EMI Amount"><br><br>
+    <label for="chq bounce">Cheque Bounces In The Last 6 Months</label><br>
+    <input type="text" id="applicantChqBounces" placeholder="Enter Cheque Bounces"><br><br>
+    <label for="tier">Company Tier (1 OR 2 OR 3)</label><br>
+    <input type="text" id="applicantCompanyTier" placeholder="Enter 1, 2 or 3"><br><br>
+    <label for="own house">Does Applicant Own a House (y OR n) ?</label><br>
+    <input type="text" id="applicantOwnHouse" placeholder="Enter y or n"><br><br>
+    <label for="spouse">Is Applicant Spouse Working (y OR n) ?</label><br>
+    <input type="text" id="applicantSpouseWorking" placeholder="Enter y or n"><br><br>
+    <label for="parents">Does Applicant Has Dependant Parents (y OR n) ?</label><br>
+    <input type="text" id="applicantDependantParents" placeholder="Enter y or n"><br><br>
+    <fieldset>
+        <span>
+            <h3 id="display">Score and Status Will Be Displayed Here</h3>
+        </span>
+    </fieldset>
+    <br>
+    <button type="submit" onclick="calculate()">Get Score</button>
+    <script src="./Score.js"></script>
+</body>
+</html>
